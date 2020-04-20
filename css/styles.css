@@ -133,3 +133,25 @@ hr{
     border-radius: 20px;
     text-decoration: none;
     }
+    @media only screen and (max-width: 600px){
+        .top-cloud{
+            display: none;
+        }
+        .bottom-cloud{
+            display: none;
+        }
+        .mountain{
+            width:50%;
+            margin: auto;
+        }
+        .profile-picture-img{
+            width:35%;
+        }
+        .intro{
+            width: 70%;
+        }
+        .contact-text{
+            width:70%;
+            margin:auto;
+        }
+    }
